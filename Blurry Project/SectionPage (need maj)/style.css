@@ -1,0 +1,217 @@
+@font-face {
+    font-family: "Helvetica", sans-serif;
+    src: url(./Helvetica.ttf);
+}
+
+*{
+    font-family: "Helvetica", sans-serif;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+    list-style: none;
+    border: none;
+    background: none;
+    color: black;
+}
+
+button:hover{
+    cursor: pointer;
+}
+@keyframes defile {
+    0%{
+        margin-left: 0%;
+    }
+    100%{
+        margin-left: -50%;
+    }
+    
+}
+.langue i{
+    color: white;
+}
+
+.messagedefilant span {
+    color: #fff;
+    animation: defile infinite 15s linear;
+    background: #000;
+    white-space: nowrap;
+}
+
+.messagedefilant span::after{
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+nav span{
+    font-size: 0.8rem;
+    text-align: top;
+    padding-left: 2px;
+}
+nav{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns:10% 25% 30% 25% 10%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px 0px 10px 0;
+}
+
+button{
+    color: black;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.accueil a{
+    font-size: 1.4rem;
+    background: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    padding: 4px;
+}
+.leftpartnav{
+    display: flex;
+}
+.leftpartnav a{
+    padding-left: dipx;
+    font-size: 0.9rem;
+}
+.logocenter{
+    display: flex;
+}
+.logocenter img{
+    height: 100px;
+}
+
+.rightpartul a{
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+
+.langue button{
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+    background: black;
+    padding: 10px;
+}
+.merch{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+.merchtitle {
+    display: flex;
+    background: black;
+    justify-content: center;
+}
+
+.merch i{
+    color: white;
+}
+.merch button {
+    height: 30px;
+    margin: 50px;
+    width: 150px;
+    text-align: left;
+    color: white;
+    background: black;
+}
+
+.merchtitle h1 {
+    letter-spacing: 3px;
+    height: 60px;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.merchimages1, .merchimages2 {
+    display: flex;
+    transform: translateX(270px);
+}
+.merchimages img {
+    height: 400px;
+    padding: 100px 10px;
+    margin: 63px 10px 0;
+    transition: 0.3s ease-in-out;
+    background: rgb(250, 250, 250);
+}
+
+.merchimages img:hover {
+    cursor: pointer;
+    background: whitesmoke;
+}
+.merchimages h5, .merchimages h3 {
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+.merchimages h5 {
+    padding-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    height: 30px;
+}
+.merchimages h3 {
+    font-size: 1.3rem;
+}
+/*
+.merchtitle::after{
+    content:"";
+    background: white;
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    left: 10%;
+}*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: whitesmoke;
+    height:di0px;
+}
+.logos a{
+    font-size: 2rem;
+}
+.logos ul{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+.logos li{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.conditions::before{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 1px;
+    background: rgb(181, 180, 180);
+    transform: translateX(10%);
+}
+
+.conditions h4{
+    font-size: 0.8rem;
+    line-height: 30px ;
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
